@@ -1,0 +1,14 @@
+company:
+  id: VHM
+  legal_name: "Công ty Cổ phần Vinhomes"
+  english_name: "Vinhomes Joint Stock Company"
+  ticker: VHM
+  exchange: HOSE
+  country: VN
+sources:
+  - {id: vinhomes_ir, name: Investor Relations, source_type: COMPANY_PROFILE, tier: 2, base_url: https://vinhomes.vn/en/ir}
+  - {id: vinhomes_disclosures, name: Information Disclosure, source_type: COMPANY_DISCLOSURE, tier: 2, base_url: https://vinhomes.vn/en/cong-bo-thong-tin}
+  - {id: vinhomes_annual_reports, name: Annual Reports, source_type: ANNUAL_REPORT_INDEX, tier: 2, base_url: https://vinhomes.vn/en/bao-cao-thuong-nien}
+  - {id: vinhomes_financial_reports, name: Financial Statements, source_type: FINANCIAL_REPORT_INDEX, tier: 2, base_url: https://vinhomes.vn/en/bao-cao-tai-chinh}
+keywords:
+  relevant: ["quản trị", "corporate governance", "annual report", "báo cáo thường niên", "agm", "đại hội đồng cổ đông", "resolution", "nghị quyết", "personnel", "nhân sự", "appointment", "bổ nhiệm", "dismissal", "miễn nhiệm", "board", "hội đồng quản trị", "financial statement", "báo cáo tài chính", "charter", "điều lệ", "disclosure", "công bố thông tin"]
